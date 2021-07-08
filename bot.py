@@ -11,7 +11,6 @@ bot = commands.Bot(command_prefix='**')
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
-GUILD = os.getenv('DISCORD_GUILD')
 
 
 discord_ai = ml_models.DiscordModelWrapper()
